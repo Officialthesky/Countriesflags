@@ -1,0 +1,28 @@
+.reverseStringContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.reverseStringInputContainer,
+.reverseStringOutputContainer {
+  width: 100%;
+  height: 50vh;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.reverseStringOutputContainer {
+  background-color: cornsilk;
+}
+.reverseButton {
+  margin-left: 10px;
+}
+.inputString {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  border: 0px;
+  padding-left: 10px;
+}
