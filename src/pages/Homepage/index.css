@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
 .homePage {
   width: 100vw;
   height: 100vh;
   background-color: whitesmoke;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Cormorant SC', serif;
+}
+.homePage h1{
+  font-size: 100px;
 }

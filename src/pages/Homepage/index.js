@@ -10,18 +10,19 @@ export default function Home() {
     navigate(`/country-flags`);
   };
 
-  const openReverseStringPage = () => {
-    navigate(`/reverse-string`);
-  };
+  // const openReverseStringPage = () => {
+  //   navigate(`/reverse-string`);
+  // };
 
   return (
     <div className="homePage">
+      <h1>Show Countries Flags</h1>
       <Button variant="secondary" onClick={openCountryFlagsPage}>
         Countries flags
       </Button>
-      <Button variant="secondary" onClick={openReverseStringPage}>
+      {/* <Button variant="secondary" onClick={openReverseStringPage}>
         Reverse string
-      </Button>
+      </Button> */}
     </div>
   );
 }

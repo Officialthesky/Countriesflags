@@ -1,13 +1,13 @@
 header {
   width: 100vw;
   height: 10vh;
-  background-color: darkkhaki;
-  font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding-left: 30px;
+  font-family: 'Cormorant SC', serif;
+
 }
 .headerTitle {
   flex: 1;
